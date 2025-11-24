@@ -20,7 +20,7 @@ const repos = [
   {
     name: "Machine Learning Assignment",
     description: "ML experiments: LR, KNN, SVM.",
-    url: "https://github.com/NHP0820/Machine-Learning-Assignment"
+    url: "https://github.com/NHP0820/AI---Heart-Disease-Prediction"
   }
 ];
 
