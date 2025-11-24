@@ -66,3 +66,20 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* src/index.css 或 src/App.css */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #0f1724;    /* 整页背景色（与你当前的深色一致） */
+  color: #e6eef8;
+  font-family: Inter, system-ui, Arial, sans-serif;
+}
+
+/* 保留内部容器宽度约束，但背景已经在 body 上 */
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 24px;
+}
