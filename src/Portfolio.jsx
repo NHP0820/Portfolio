@@ -9,7 +9,7 @@ const repos = [
   },
   {
     name: "BookHero",
-    description: "React + Firebase staff management system.",
+    description: "PHP + MySQL staff management system.",
     url: "https://github.com/NHP0820/BookHero"
   },
   {
