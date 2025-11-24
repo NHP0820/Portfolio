@@ -15,7 +15,7 @@ const repos = [
   {
     name: "Mobile Signature Assignment",
     description: "Flutter mobile assignment app.",
-    url: "https://github.com/NHP0820/Mobile-Assignment"
+    url: "https://github.com/NHP0820/Mobile.git"
   },
   {
     name: "Machine Learning Assignment",
