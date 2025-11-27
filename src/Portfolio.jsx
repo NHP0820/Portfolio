@@ -21,6 +21,11 @@ const repos = [
     name: "Machine Learning Assignment",
     description: "ML experiments: LR, KNN, SVM.",
     url: "https://github.com/NHP0820/AI---Heart-Disease-Prediction"
+  },
+  {
+    name: "Final Year Project (FYP)",
+    description: "Final Year Project documentation and system mockups.",
+    url: "https://github.com/NHP0820/FYP--Undercode"
   }
 ];
 
@@ -34,9 +39,8 @@ export default function Portfolio() {
         fontFamily: "Inter, system-ui, Arial"
       }}
     >
-      {/* Center Content */}
       <div style={{ maxWidth: 980, margin: "0 auto", padding: 24 }}>
-        {/* Header */}
+
         <header style={{ marginBottom: 28 }}>
           <h1 style={{ margin: 0, fontSize: 32, fontWeight: 700 }}>LO ZHENG YU</h1>
           <p style={{ margin: "6px 0 0", color: "#bcd1ea", fontSize: 18 }}>
@@ -44,7 +48,6 @@ export default function Portfolio() {
           </p>
         </header>
 
-        {/* About Section */}
         <section style={{ marginBottom: 28 }}>
           <h2 style={{ margin: "0 0 8px", fontSize: 22 }}>About me</h2>
           <p style={{ margin: 0, color: "#c9dff4", lineHeight: 1.6 }}>
@@ -55,7 +58,6 @@ export default function Portfolio() {
           </p>
         </section>
 
-        {/* Projects Section */}
         <section>
           <h2 style={{ margin: "18px 0 12px", fontSize: 22 }}>Projects</h2>
 
@@ -119,11 +121,11 @@ export default function Portfolio() {
           </div>
         </section>
 
-        {/* Footer */}
         <footer style={{ marginTop: 36, color: "#9fb4d8", fontSize: 15 }}>
           <p>Tel : 0165424387</p>
           <p>Email : lozy-wm21@student.tarc.edu.my</p>
         </footer>
+
       </div>
     </div>
   );
